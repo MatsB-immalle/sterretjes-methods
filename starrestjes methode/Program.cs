@@ -9,6 +9,17 @@ namespace starrestjes_methode
     {
         static void Main(string[] args)
         {
+            TekenSterretjes(100);
+
+        }
+
+        static void TekenSterretjes(int count)
+        {
+            for (var i = 0; i < count; i++)
+            {
+                Console.Write('*');
+            }
+            Console.WriteLine();
         }
     }
 }
