@@ -10,6 +10,12 @@ namespace starrestjes_methode
         static void Main(string[] args)
         {
             TekenSterretjes(100);
+            
+            TekenSterretjes(200);
+            string sterretjes1 = MaakSterretjes(300);
+            string sterretjes2 = MaakSterretjes(400);
+            Console.WriteLine(sterretjes1);
+            Console.WriteLine(sterretjes2);
 
         }
 
@@ -20,6 +26,12 @@ namespace starrestjes_methode
                 Console.Write('*');
             }
             Console.WriteLine();
+        }
+
+        static string MaakSterretjes(int count)
+        {
+            return "";
+
         }
     }
 }
